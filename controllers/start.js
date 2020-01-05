@@ -7,8 +7,7 @@ var vid_path = "videos/" + vid_folder;
 var video_url = "https://github.com/sheric98/QoEProject/raw/master/videos/" + vid_folder + "/";
 
 var num_vids;
-var cur_vid;
-var cur_grade;
+
 fs.readdir(vid_path, function(err, files) {
     num_vids = files.length;
     console.log(vid_path + " has " + num_vids + " files");
@@ -62,7 +61,7 @@ var post_grade= async (ctx, next) => {
     var user = ctx.state.user;
     var end = new Date().getTime();
     var exe_time = end - user.start;
-    user.video_time[cur_vid] += exe_time;
+    user.video_time[user.count-1] += exe_time;
     user.start = end;
 
     let value =  Buffer.from(JSON.stringify(user)).toString('base64');
@@ -80,7 +79,7 @@ var post_back2video = async (ctx, next) => {
     var video_src = video_url + user.video_order[user.count - 1] + ".mp4";
     var end = new Date().getTime();
     var exe_time = end - user.start;
-    user.video_time[cur_grade] += exe_time;
+    user.grade_time[user.count-1] += exe_time;
     user.start = end;
     var title = user.count + "/" + num_vids;
     ctx.render('video.html', {
@@ -94,9 +93,7 @@ var post_next = async (ctx, next) => {
     user.result.push(grade);
     var end = new Date().getTime();
     var exe_time = end - user.start;
-    user.grade_time[cur_grade] += exe_time;
-    cur_grade +=1;
-    cur_vid +=1;
+    user.grade_time[user.count-1] += exe_time;
 
     user.start = end;
     if(user.count < num_vids) {
