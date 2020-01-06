@@ -41,9 +41,7 @@ var post_start = async (ctx, next) => {
     	user.video_time.push(0);
     	user.grade_time.push(0);
     }
-    cur_vid = 0;
-    cur_grade = 0;
-
+    
     let value =  Buffer.from(JSON.stringify(user)).toString('base64');
     ctx.cookies.set('name', value);
     var video_src = video_url + video_order[0] + ".mp4";
@@ -62,9 +60,8 @@ var post_grade= async (ctx, next) => {
     var end = new Date().getTime();
     var exe_time = end - user.start;
     user.video_time[user.count-1] += exe_time;
-
     user.start = end;
-
+    
     let value =  Buffer.from(JSON.stringify(user)).toString('base64');
     ctx.cookies.set('name', value);
 
