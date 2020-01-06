@@ -6,9 +6,30 @@ const controller = require('./controller');
 
 const templating = require('./templating');
 
+const fs = require('fs');
+
+const rimraf = require("rimraf");
+
 const app = new Koa();
 
 const isProduction = process.env.NODE_ENV === 'production';
+
+var prompt = require('prompt-sync')();
+
+var dummy = true;
+
+//Initialize results
+if (fs.existsSync('./results')) {
+    var answer = prompt(`results folder already exists. Do you want to overwrite it? (Y/N) `);
+    if (answer !== 'Y')
+    {
+        process.exit();
+    }
+    rimraf.sync("./results");
+}
+fs.mkdirSync('./results');
+
+
 
 // log request URL:
 app.use(async (ctx, next) => {
