@@ -7,6 +7,7 @@ var vid_path = "videos/" + vid_folder;
 var video_url = "https://github.com/sheric98/QoEProject/raw/master/videos/" + vid_folder + "/";
 
 var num_vids;
+
 fs.readdir(vid_path, function(err, files) {
     num_vids = files.length;
     console.log(vid_path + " has " + num_vids + " files");
@@ -33,6 +34,14 @@ var post_start = async (ctx, next) => {
         grade_time : [],
         start : start
     };
+    var i;
+    //initialize video_time & grade_time
+    for (i = 0; i < num_vids; i++)
+    {
+    	user.video_time.push(0);
+    	user.grade_time.push(0);
+    }
+    
     let value =  Buffer.from(JSON.stringify(user)).toString('base64');
     ctx.cookies.set('name', value);
     var video_src = video_url + video_order[0] + ".mp4";
@@ -50,9 +59,9 @@ var post_grade= async (ctx, next) => {
     var user = ctx.state.user;
     var end = new Date().getTime();
     var exe_time = end - user.start;
-    user.video_time.push(exe_time);
+    user.video_time[user.count-1] += exe_time;
     user.start = end;
-
+    
     let value =  Buffer.from(JSON.stringify(user)).toString('base64');
     ctx.cookies.set('name', value);
 
@@ -66,6 +75,12 @@ var post_grade= async (ctx, next) => {
 var post_back2video = async (ctx, next) => {
     var user = ctx.state.user;
     var video_src = video_url + user.video_order[user.count - 1] + ".mp4";
+    var end = new Date().getTime();
+    var exe_time = end - user.start;
+    user.grade_time[user.count-1] += exe_time;
+    user.start = end;
+    let value =  Buffer.from(JSON.stringify(user)).toString('base64');
+    ctx.cookies.set('name', value);
     var title = user.count + "/" + num_vids;
     ctx.render('video.html', {
         title: title, video_src: video_src
@@ -78,7 +93,8 @@ var post_next = async (ctx, next) => {
     user.result.push(grade);
     var end = new Date().getTime();
     var exe_time = end - user.start;
-    user.grade_time.push(exe_time);
+    user.grade_time[user.count-1] += exe_time;
+
     user.start = end;
     if(user.count < num_vids) {
         var video_src = video_url + user.video_order[user.count] + ".mp4";
