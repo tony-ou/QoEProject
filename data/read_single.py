@@ -29,12 +29,14 @@ result_path = inp
 
 vid_path = "../videos/buffer_location3"
 list_dir = os.listdir(vid_path)
+
 count = 0
 lengths = []
 for vid in list_dir:
     if vid.endswith(".mp4"):
         count += 1
         full_vid_path = vid_path + "/" + vid
+        
         lengths.append(getLength(full_vid_path))
 
 def print_no_n(line):
