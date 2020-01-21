@@ -8,26 +8,38 @@ rejected_results = list(map(lambda x: x.split('.')[0], os.listdir('../rejected_r
 approved_results = list(map(lambda x: x.split('.')[0], os.listdir('../results')))
 
 buffer = []
+def parse(line):
+    line = line.strip().split("\",\"")
+    line[0]= line[0][1:] #get rid of first "
+    line[-1]= line[-1][:-1] # ... last "
+    return line
+def cat(line):
+    line = "\"" + "\",\"".join(line) + "\"\n"
+    return line
+
 with open(file) as csv_file:    
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    header = next(csv_reader,None)
+    buffer = csv_file.readlines()
+    buffer = list(map(parse, buffer))
+    header = buffer[0]
+    
     reject = header.index('Reject')
     approve = header.index('Approve') 
     w_id = header.index('WorkerId')
     cmt = header.index('RequesterFeedback')
     
-    buffer.append(header)
-    for row in csv_reader: 
+    buffer[0] = cat(header)
+    
+    for i in range(1,len(buffer)): 
+        row = buffer[i]
         while (len(row) <= 30): 
-            row += ['']
+            row.append('')
         if row[w_id] in rejected_results:
             row[reject]='x'
             row[cmt] = comment
         if row[w_id] in approved_results:
             row[approve]='x'
-        buffer.append(row)
+        buffer[i]= cat(row)
+
 
 with open(file, 'w',newline='') as csv_file:
-    csv_writer = csv.writer(csv_file, delimiter=',')
-    for row in buffer: 
-        csv_writer.writerow(row)
+    csv_file.writelines(buffer)
