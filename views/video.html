@@ -1,21 +1,115 @@
-<!-- HIT template: Sentiment-v3.0 --><!-- The following snippet enables the 'responsive' behavior on smaller screens -->
-{% extends "base.html" %} {% block main %}
-<meta content="width=device-width,initial-scale=1" name="viewport" />
-<!-- End instructions --><!-- Categorization Layout -->
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://ivc.uwaterloo.ca/research/RDOS/demo/ -->
+<html>
+<style type="text/css">
+    
 
-<div class="row" id="workContent">
+.dash-video-player {
+    /* background-color: #000000; */
+    position: relative;
+    padding: 0;
+    max-width: 960px;
+}
+
+.dash-video-player video {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: fill;
+}
 
 
-<!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
-  <div class="panel-body", style="text-align:center">
-      <video width="1024" height="576" controls="controls" >
-          <source src={{video_src}}>
-      </video>
-  </div>
+</style>
 
-  <form action="grade", method="POST", style="text-align:center">
-      <button type="submit" class="btn btn-primary">Go to Grading</button>
-  </form>
-</div>
+<head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" href="/static/css/bootstrap2.min.css">
+       <script src="/static/js/bootstrap.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <title>{{ title }}</title>
+</head>
 
-  {% endblock %}
+<body>
+    <div  style="text-align:center">
+        <h2>Please decide to which extent you agree with the following statement:</h2>
+        <h2>A video that is streamed as shown in the last page provides a satisfactory experience </h2>
+        <h3>Progress: {{count}} / {{num_vids}}</h3>
+    </div>
+    
+    <div class="row">
+        <div class="col" >
+                <div class="dash-video-player">
+                    <video preload="none" controls="" src="https://github.com/sheric98/QoEProject/raw/master/videos/buffer_location3/1.mp4"></video>
+                </div>
+            <form action= "next" method="POST" style="text-align:center">
+                <div class="btn-group-vertical" data-toggle="buttons" id="Inputs">
+                    <label class="btn btn-default"><input id="StronglyPositive" name="sentiment" required="" type="radio" value="5" /><h4>Strongly Agree</h4>
+                    </label> 
+                    <label class="btn btn-default"><input id="Positive" name="sentiment" required="" type="radio" value="4" /><h4>Agree</h4>
+                    </label>
+                    <label class="btn btn-default"><input id="Neutral" name="sentiment" required="" type="radio" value="3" /><h4>Neutral</h4>
+                    </label> 
+                    <label class="btn btn-default"> <input id="Negative" name="sentiment" required="" type="radio" value="2" /><h4>Disagree</h4>
+                    </label> 
+                    <label class="btn btn-default"> <input id="StronglyNegative" name="sentiment" required="" type="radio" value="1" /><h4>Strongly Disagree</h4>
+                    </label> 
+                </div>
+                </br></br>
+            </form>
+        </div>
+
+        <div class="col" >
+            <div class="dash-video-player">
+                <video preload="none" controls="" src="https://github.com/sheric98/QoEProject/raw/master/videos/buffer_location3/1.mp4"></video>
+            </div>
+            <form action= "next" method="POST" style="text-align:center">
+                <div class="btn-group-vertical" data-toggle="buttons" id="Inputs">
+                    <label class="btn btn-default"><input id="StronglyPositive" name="sentiment" required="" type="radio" value="5" /><h4>Strongly Agree</h4>
+                    </label> 
+                    <label class="btn btn-default"><input id="Positive" name="sentiment" required="" type="radio" value="4" /><h4>Agree</h4>
+                    </label>
+                    <label class="btn btn-default"><input id="Neutral" name="sentiment" required="" type="radio" value="3" /><h4>Neutral</h4>
+                    </label> 
+                    <label class="btn btn-default"> <input id="Negative" name="sentiment" required="" type="radio" value="2" /><h4>Disagree</h4>
+                    </label> 
+                    <label class="btn btn-default"> <input id="StronglyNegative" name="sentiment" required="" type="radio" value="1" /><h4>Strongly Disagree</h4>
+                    </label> 
+                </div>
+                </br></br>
+            </form>
+        </div>
+    </div>
+    </br></br>
+    <form action= "next" method="POST" style="text-align:center">
+    <div style="text-align:center; font-size:20px">
+        <button type="submit" class="btn btn-primary" style="text-align:center; font-size:20px">Watch next video</button>
+    </div>
+ </form>
+
+</body>
+
+
+<script>
+        $(document).ready(function() {
+            // highlight selected category
+            var inputs = $("#Inputs input:radio");
+            inputs.change(function(){
+              inputs.parent().removeClass("btn-success");
+              inputs.parent().addClass("btn-default");
+              if($(this).is(":checked")){
+                $(this).parent().removeClass("btn-default");
+                $(this).parent().addClass("btn-success");
+              }else{
+                $(this).parent().removeClass("btn-success");
+                $(this).parent().addClass("btn-default");
+              }
+            });
+            // end highlight
+          });
+</script>
+
+</html>
+
+
+
