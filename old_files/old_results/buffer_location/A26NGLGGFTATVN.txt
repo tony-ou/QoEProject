@@ -1,0 +1,9 @@
+4,2,2,2,2
+1,4,3,5,2
+20920,18492,22892,22211,29475
+8606,2401,2130,2234,2268
+A26NGLGGFTATVN
+Desktop
+32 - 38
+Cable network
+Some of them lagged for 1 to 2 seconds and the sound was out of sync.

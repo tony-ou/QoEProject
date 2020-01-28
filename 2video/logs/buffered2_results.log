@@ -1,0 +1,256 @@
+LOG OF buffered2 SURVEY RESULTS
+
+########
+#GRADES#
+########
+
+RAW GRADES:
+[4 5 5 4 5 4 4 4 3 4 4 5 5 5 5 5 5 5 4 4 3 5 5 4 5 5 5 5 2 4 1 5 1 5 5 5 5
+ 4 4 5 4 5 5]
+[2 5 4 3 4 2 2 4 3 4 4 4 3 3 4 4 4 5 4 2 3 5 4 4 5 5 4 5 4 3 3 5 2 4 4 5 5
+ 4 4 5 3 2 2]
+[2 2 2 1 5 5 5 2 2 4 2 4 4 2 4 2 5 4 3 2 4 5 1 4 4 4 3 4 1 2 1 3 1 5 4 5 4
+ 4 5 5 3 3 5]
+[2 5 2 2 3 1 2 2 2 3 2 5 4 2 4 2 4 4 2 2 4 5 1 4 5 4 4 2 1 1 1 2 2 5 2 3 1
+ 4 3 5 2 2 1]
+[2 1 4 3 4 1 4 4 2 4 2 5 4 1 2 2 4 4 2 4 4 4 1 4 5 4 4 2 2 1 2 3 1 4 3 3 5
+ 3 3 5 2 2 1]
+[2 1 1 3 2 1 1 2 1 4 2 3 3 2 2 1 3 4 1 3 4 2 4 5 5 5 2 1 1 1 4 1 1 3 1 4 4
+ 3 3 4 1 1 1]
+MEAN:
+[4.326 3.721 3.302 2.767 2.953 2.395]
+STANDARD ERROR:
+[0.153 0.152 0.207 0.202 0.194 0.203]
+
+STANDARDIZED GRADES:
+[ 2.236  0.984  1.414  1.414  1.093  1.043  0.707  1.     1.213  0.447
+  1.414  0.894  1.698  1.987  1.342  1.698  1.213  1.414  1.206  1.3
+ -1.414  0.603  1.373 -0.447  0.447  1.     1.414  1.166  0.156  1.732
+ -0.866  1.254 -0.707  0.894  1.364  0.928  0.707  0.707  0.447  0.447
+  1.567  1.987  1.387]
+[-0.447  0.984  0.707  0.354  0.156 -0.209 -0.707  1.     1.213  0.447
+  1.414 -0.447 -1.213  0.397  0.447  0.97  -0.243  1.414  1.206 -0.928
+ -1.414  0.603  0.784 -0.447  0.447  1.     0.354  1.166  2.03   0.866
+  0.866  1.254  1.414 -0.447  0.62   0.928  0.707  0.707  0.447  0.447
+  0.522 -0.397 -0.277]
+[-0.447 -0.626 -0.707 -1.768  1.093  1.668  1.414 -1.    -0.243  0.447
+ -0.707 -0.447  0.243 -0.397  0.447 -0.485  1.213 -0.707  0.302 -0.928
+  0.707  0.603 -0.981 -0.447 -2.236 -1.    -0.707  0.53  -0.781  0.
+ -0.866 -0.114 -0.707  0.894  0.62   0.928  0.     0.707  1.789  0.447
+  0.522  0.397  1.387]
+[-0.447  0.984 -0.707 -0.707 -0.781 -0.834 -0.707 -1.    -0.243 -2.236
+ -0.707  0.894  0.243 -0.397  0.447 -0.485 -0.243 -0.707 -0.603 -0.928
+  0.707  0.603 -0.981 -0.447  0.447 -1.     0.354 -0.742 -0.781 -0.866
+ -0.866 -0.798  1.414  0.894 -0.868 -1.3   -2.121  0.707 -0.894  0.447
+ -0.522 -0.397 -0.832]
+[-0.447 -1.163  0.707  0.354  0.156 -0.834  0.707  1.    -0.243  0.447
+ -0.707  0.894  0.243 -1.192 -1.342 -0.485 -0.243 -0.707 -0.603  1.3
+  0.707 -0.302 -0.981 -0.447  0.447 -1.     0.354 -0.742  0.156 -0.866
+  0.    -0.114 -0.707 -0.447 -0.124 -1.3    0.707 -1.414 -0.894  0.447
+ -0.522 -0.397 -0.832]
+[-0.447 -1.163 -1.414  0.354 -1.718 -0.834 -1.414 -1.    -1.698  0.447
+ -0.707 -1.789 -1.213 -0.397 -1.342 -1.213 -1.698 -0.707 -1.508  0.186
+  0.707 -2.111  0.784  2.236  0.447  1.    -1.768 -1.378 -0.781 -0.866
+  1.732 -1.481 -0.707 -1.789 -1.612 -0.186  0.    -1.414 -0.894 -2.236
+ -1.567 -1.192 -0.832]
+MEAN:
+[ 0.974  0.435  0.001 -0.396 -0.243 -0.772]
+STANDARD ERROR:
+[0.113 0.115 0.137 0.119 0.107 0.155]
+
+#############
+#VIDEO ORDER#
+#############
+
+RAW ORDERS:
+[6 5 3 4 1 2]
+[4 1 2 6 3 5]
+[1 5 2 4 3 6]
+[6 5 1 2 3 4]
+[5 3 6 1 2 4]
+[3 1 4 2 5 6]
+[3 1 4 6 2 5]
+[5 2 6 1 4 3]
+[5 2 3 4 6 1]
+[6 2 3 5 1 4]
+[2 1 6 4 5 3]
+[5 3 1 6 2 4]
+[1 4 3 5 6 2]
+[6 3 2 4 1 5]
+[2 3 5 1 4 6]
+[2 5 1 3 6 4]
+[1 5 2 3 4 6]
+[5 3 2 1 4 6]
+[3 5 1 4 6 2]
+[2 6 3 5 1 4]
+[4 6 3 5 1 2]
+[3 4 5 2 1 6]
+[6 4 2 1 5 3]
+[6 2 5 3 1 4]
+[4 3 5 1 2 6]
+[6 5 2 1 3 4]
+[4 1 5 2 6 3]
+[4 5 2 6 1 3]
+[2 5 3 1 4 6]
+[3 5 4 6 1 2]
+[6 2 5 4 3 1]
+[2 5 1 4 3 6]
+[2 4 6 3 1 5]
+[1 6 4 3 2 5]
+[1 2 3 5 4 6]
+[3 1 6 2 5 4]
+[6 3 2 1 5 4]
+[6 1 2 3 4 5]
+[2 1 6 4 5 3]
+[2 5 6 3 1 4]
+[4 1 6 2 3 5]
+[5 2 1 6 4 3]
+[1 3 6 5 4 2]
+
+#################
+#VIDEO VIEW TIME#
+#################
+
+RAW TIMES:
+[19216 23141 23468 20633 17458 18104 23747 21370 24390 18571 20252 24702
+ 32153 21369 18336 16888 20100 23138 24306 14881 96616 17057 19729 39414
+ 18964 39347 17589 21910 21061 23178 20159 23039 23524 85307 21577 30621
+ 54985 54528 44948 18077 18343 21711 19956]
+[ 19474  23599  18572  19669  15882  17354  23392  26697  27179  45489
+  32724  22025  18322  17972  21728  18585  18271  18352  39206  24230
+  62981  18224  34804  26996  20272  27274  19172  29578  22086  22631
+  20245  21668  28695  16218  22239  33079 167589  58569  81727  53582
+  16808  24462  17655]
+[ 20747  23632  23043  19744  21915  21195  25740  22394  46951  42239
+  22569  27982  23642  19789  21453  17885  19328  18738  27998  15273
+  40547  22124  75345  40448  23332  22857  29095  20669  21008  21943
+  20759  24752  22498  28017  23322 108048  30065  65213  32115  21267
+  17772  21911  20399]
+[20079 18380 22163 19830 18996 18809 25775 23034 28120 20182 19349 24198
+ 23894 24031 20826 22554 20900 19078 25036 20029 65903 22499 18532 39789
+ 20278 24987 20322 93932 17162 22626 21593 27542 25146 46265 19710 68644
+ 32967 49245 19453 21285 19112 22517 16251]
+[ 22991  24598  15209  25441  21426  22106  27078  28297  48959  30806
+  23094  34007  16263  23589  22978  20797  19594  22868  28187  19122
+  81634  24422  23971  35361  17731  39458  14447  22077  21089  24147
+  21348  37925  44787  30197  25559  46105 107252  74292  36856  13853
+  20686  60617  18306]
+[ 28094  28411  29653  29971  24698  26448  27049  30336  34439  40080
+  27040  30102  14226  25974  27570  25587  26155  59966  33336  28560
+  66533  24871  22065  24627  16249  42951  34231  31094  27239  30779
+  26202  35218  30586  35796  25374  23582 144358  75304  44163  23491
+  24448  29223  27377]
+MEAN:
+[27392.163 30587.814 28738.674 27233.093 31151.86  34033.86 ]
+
+#################
+#GRADE VIEW TIME#
+#################
+
+RAW TIMES:
+[ 2827  4909  6839  2240  2034  4980  4655  3768  5370 27130  3150  8606
+  6050  2063 10355  1840 10075  2951  3689  2623  4595  3479  2413 29009
+  2987  6177  2121  2122  3972  2845  4043  3265  6180 16795  5872 12062
+ 14884  8195 26267  3537  4263  4883 14921]
+[ 2694  5123  4070  2479  2481  1990  2597  3516  9069  8017  5321  9797
+  2618  1997  4325  4732  2940  2617  3367  4029  5111  3058  4819  7123
+  2433  4424  6773  2945  3024  2891  2154 59827 11073  7932  4424  9984
+ 15848 10088 35473  8401  2502  3845  1632]
+[ 1997  4079  2773  3634  5818  5822  5767  3982  4450 16454  3388  8819
+  4816 11986  2686  2947  1804  4230 16977  2370  4179 16022  4206  4886
+  2691  3488  3398  2258  1926 18380  3828  2126  6697  5046  5708 17534
+ 29970  6931  4561  6712  1388  3312  2195]
+[ 2372  7813  2287  3500  3009  1586  2885  3018  4040  2596  2048  7911
+  3528  2266  8160  2199  2022  2371  7410  3362 14822  3436  3542  4110
+  7781  7523  5761  5480  1903  4268  1866  5684  3511 18139  2654 22192
+ 22340  5194 67402  3932  9708  5718  1289]
+[ 2676  4535  3302  2169 13886  2004  3063 18503 22081  6804  3100 14700
+  3229  2429  2589  3623  4544  8398  7006  2289  4527  2494  2330  7406
+  3780  5240  3323  1613  3368  2139  1774  5913 12215 27743  5268  8923
+ 13194 12509  5422  5261  1724 20859  1657]
+[ 10520   4010   3482   6428   4248   2314   2338   6116   9501  13600
+   4323   7939   3528   7886   3265   1393   3222   1925   2893   2332
+   8376   3744   8187   7800   3035  32553  13001   1897   2397   2571
+   5267   4194   4149  15948   4692  14777  14624  14787 191567  76030
+   2018  10285   2063]
+MEAN:
+[ 7000.953  6966.581  6331.186  7038.093  6735.163 12679.651]
+
+###############
+#DEVICE COUNTS#
+###############
+
+Desktop: 24
+Laptop: 18
+Tablet: 0
+Smart phone: 1
+Other device: 0
+
+##################
+#AGE GROUP COUNTS#
+##################
+
+18 - 24: 7
+25 - 31: 17
+32 - 38: 11
+39 - 45: 2
+46 - 52: 3
+53 - 59: 2
+60 and above: 1
+
+################
+#NETWORK COUNTS#
+################
+
+WiFi: 28
+Cable network: 14
+Cellular network: 1
+Other: 0
+
+###########
+#REASONING#
+###########
+
+A26NGLGGFTATVN: Most of them stopped halfway through, except one of them which played smoothly throughout.  Some of the sound had  static as well.
+AMTTB8JUWRRM7: Some seemed to have pauses for buffering.
+A377LTGWJKY2IW: The amount of buffering. Some played seamlessly without any pauses. Some stopped and took awhile to start up again. 
+A37S96RT1P1IT2: I looked to see how many times the video froze and what was on screen and not part of the video.
+AVSLRTQLC2XK4: How much each of them buffered
+A11W7R2O4RQSSS: the ones that sucked paused to load a bunch
+A17D6BK59S31BM: The frequency of the pixels 
+AFN5VMMGYPF1I: They way they would play,some would stop,skip.or the sound would cut out a little
+A1F2MFSHXTGAVD: It shakes frequently 
+ALAEBEEHK525U: some paused a little while others did not
+A3RYI5HXC2MJLN: Stoppages in the video of various lengths . 
+A1ZWDUFNFILYJJ: The video task in the very natural sound and picture in quality
+A1B76WYZ47BQJ: when it paused during the video.
+A320QA9HJFUOZO: pausing and buffering issues
+A3LL096CAY5WHB: Some buffered more than others. 
+AD14EQ9O9JKRI: There was lag in some and none in others
+AJW3PL5UDH4BP: The "loading time" when the video stopped.
+A2RHE12CJSKCRE: The videos got more intense 
+ACGZDI611LU0I: the streaming time and the pauses
+A2NGMLBFZ3YQP5: Some of them ran smoothly. Some stuttered and glitched. One had audio and video that did not seem perfectly in sync.
+A2EI9E6EBZEZO1: Some videos buffered for a more distracting time then others. 
+A3PRZRK9IC5CBI: some got hung up for several seconds
+A26M997VYVK0E6: a small freeze in a segment of the video
+A1ROEDVMTO9Y3X: the quality of the picture
+A2KBTDHM44J7X4: there seem to be a littl lag sometimes
+A1OCEC1TBE3CWA: DURATION OF THE VIDEO
+A2EKR2ZFO10VMV: There were longer pauses
+A2CK0OXMPOR9LE: Buffering times.
+A1K8QNLYYYX21W: whether they paused to load or not
+A3BBGLRTPYC111: stuttering and buffering
+A2PMT4061B1NDP: the sound kept getting more and more off, as well as a few stuttery moments.
+AQJRTW6LJR9LW: The "buffering" towards the end of the clips 
+A3AHCT6Q7A3Q23: The playback was HORRIBLE in all of them. The video was clear, no lag, nothing like that. The entire video shimmied from side to side rapidly with each one. It was awful and really began to hurt my eyes.
+A2UNVICZT8DKKD: Quality level is good and working well.
+A1S1O9ZCONEGE3: Every next video theirs a buffer on the video as I keep going until the sixth video it becomes more noticeable.
+A369HDC6T90Q1H: It is some time video stop and play but quality level is good.
+A15TLEMC9O4ZUD: can access whichever resolution you prefer from your video's Play
+A2E1Q8YL50CMD0: Nothing
+AZBS0MVCBSCGY: It is very suspence video but some times video stopped but quality is good.
+A2QU0ASAUX4S64: stuch between the video
+A3AKN5NEDUH04O: The amount of time that they buffered was the difference between the videos.
+A38ZV8LBZ034IZ: how long the video paused for while buffering.
+A2R0YYUAWNT7UD: lag

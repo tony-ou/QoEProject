@@ -1,0 +1,260 @@
+LOG OF buffer_location2 SURVEY RESULTS
+
+########
+#GRADES#
+########
+
+RAW GRADES:
+[4 4 5 1 2 4 1 3 4 5 3 4 4 3 3 5 2 5 3 4 5 5 5 1 2 5 4 4 5 3 5 5 5 5 5 4 2
+ 2 5 4 4 4 4 5 4 4 4 5 5 4]
+[5 2 4 1 2 4 1 2 4 4 3 5 2 4 4 3 2 5 4 2 3 4 4 1 1 2 2 2 4 4 3 5 5 5 5 2 5
+ 2 4 4 3 3 4 2 4 5 4 5 4 4]
+[4 2 4 1 2 4 1 2 4 4 4 4 2 5 3 4 4 4 5 4 5 4 4 1 1 1 2 1 5 3 4 5 4 5 3 2 2
+ 1 4 4 4 3 3 3 4 4 4 4 5 4]
+[3 2 4 1 2 4 1 2 5 4 3 5 2 4 4 3 4 4 4 4 5 4 4 1 1 4 2 2 4 5 2 5 5 5 3 2 4
+ 2 3 3 5 3 4 2 4 5 4 5 4 4]
+[5 4 4 1 2 5 1 1 3 4 4 3 4 3 4 4 4 3 5 4 4 3 4 1 2 5 2 2 4 4 2 5 5 5 5 2 2
+ 2 4 4 4 4 5 4 4 5 4 4 5 4]
+MEAN:
+[3.86 3.36 3.32 3.42 3.56]
+STANDARD ERROR:
+[0.167 0.178 0.18  0.175 0.172]
+
+STANDARDIZED GRADES:
+[-0.267  1.225  2.     0.     0.    -0.5    0.     1.581  0.     2.
+ -0.816 -0.267  1.225 -1.069 -1.225  1.604 -1.225  1.069 -1.604  0.5
+  0.75   1.581  2.     0.     1.225  0.985  2.     1.837  1.225 -1.069
+  1.543  0.     0.5    0.     0.816  2.    -0.791  0.5    1.581  0.5
+  0.     1.225  0.     1.543  0.    -1.225  0.     0.816  0.816  0.   ]
+[ 1.069 -0.816 -0.5    0.     0.    -0.5    0.     0.     0.    -0.5
+ -0.816  1.069 -0.816  0.267  0.816 -1.069 -1.225  1.069 -0.267 -2.
+ -1.75   0.    -0.5    0.    -0.816 -0.862 -0.5   -0.204 -0.816  0.267
+ -0.171  0.     0.5    0.     0.816 -0.5    1.581  0.5    0.     0.5
+ -1.581 -0.816  0.    -1.029  0.     0.816  0.     0.816 -1.225  0.   ]
+[-0.267 -0.816 -0.5    0.     0.    -0.5    0.     0.     0.    -0.5
+  1.225 -0.267 -0.816  1.604 -1.225  0.267  0.816 -0.267  1.069  0.5
+  0.75   0.    -0.5    0.    -0.816 -1.477 -0.5   -1.225  1.225 -1.069
+  0.686  0.    -2.     0.    -1.225 -0.5   -0.791 -2.     0.     0.5
+  0.    -0.816 -1.581 -0.171  0.    -1.225  0.    -1.225  0.816  0.   ]
+[-1.604 -0.816 -0.5    0.     0.    -0.5    0.     0.     1.581 -0.5
+ -0.816  1.069 -0.816  0.267  0.816 -1.069  0.816 -0.267 -0.267  0.5
+  0.75   0.    -0.5    0.    -0.816  0.369 -0.5   -0.204 -0.816  1.604
+ -1.029  0.     0.5    0.    -1.225 -0.5    0.791  0.5   -1.581 -2.
+  1.581 -0.816  0.    -1.029  0.     0.816  0.     0.816 -1.225  0.   ]
+[ 1.069  1.225 -0.5    0.     0.     2.     0.    -1.581 -1.581 -0.5
+  1.225 -1.604  1.225 -1.069  0.816  0.267  0.816 -1.604  1.069  0.5
+ -0.5   -1.581 -0.5    0.     1.225  0.985 -0.5   -0.204 -0.816  0.267
+ -1.029  0.     0.5    0.     0.816 -0.5   -0.791  0.5    0.     0.5
+  0.     1.225  1.581  0.686  0.     0.816  0.    -1.225  0.816  0.   ]
+MEAN:
+[ 0.492 -0.184 -0.256 -0.132  0.081]
+STANDARD ERROR:
+[0.142 0.108 0.114 0.116 0.128]
+
+#############
+#VIDEO ORDER#
+#############
+
+RAW ORDERS:
+[5 1 2 3 4]
+[5 3 4 1 2]
+[3 2 4 5 1]
+[2 3 1 4 5]
+[1 5 3 2 4]
+[5 3 1 4 2]
+[2 5 3 1 4]
+[2 3 1 5 4]
+[2 5 3 1 4]
+[4 5 1 3 2]
+[3 5 1 4 2]
+[3 2 4 5 1]
+[5 1 3 4 2]
+[1 2 4 5 3]
+[4 2 5 1 3]
+[3 5 1 2 4]
+[3 1 4 2 5]
+[3 4 1 5 2]
+[1 2 4 3 5]
+[3 5 4 2 1]
+[3 5 2 4 1]
+[3 2 4 5 1]
+[3 5 1 2 4]
+[3 4 1 2 5]
+[1 3 2 5 4]
+[5 4 2 1 3]
+[4 2 1 5 3]
+[1 2 5 4 3]
+[3 5 1 2 4]
+[4 3 2 1 5]
+[3 1 2 4 5]
+[3 4 2 1 5]
+[4 5 1 3 2]
+[1 4 2 3 5]
+[5 2 1 3 4]
+[3 1 4 5 2]
+[5 3 1 4 2]
+[4 2 5 1 3]
+[2 5 1 3 4]
+[5 4 1 2 3]
+[3 2 1 4 5]
+[2 4 1 3 5]
+[4 3 1 2 5]
+[3 2 5 1 4]
+[1 4 5 3 2]
+[2 3 1 5 4]
+[4 5 1 2 3]
+[3 1 5 2 4]
+[5 2 3 4 1]
+[3 1 4 2 5]
+
+#################
+#VIDEO VIEW TIME#
+#################
+
+RAW TIMES:
+[171670   9982   9991  39526  18978  30008  49514  58837  25911  57364
+ 306089  18407  10914  82759  70452  11887  17530  18274  52838  12020
+  17112   8938  10114  15304  14126  16577  18616  11954  12754  13215
+  13509  13381  16731  96703  43850  19767  20626  26651  13515  19323
+  20548  42179  28271  28934  35184  24277  25995  20382  16055  14819]
+[ 98956  11249   9096  34185  11328  13174  60310  26544 187027  39203
+ 510607  13443  14809  29553  13395  11945  17555  19389  39467  18546
+  27854  11639  10751  14876  11091  23482  12610  11689  17245  15015
+  12573  54321  14692  14207  19515  19713  19796   8805  13523  17284
+  24810  71098  21043   9008  13727 151005  21248  27594  17141  14460]
+[27606 18904  9756 37334 10932 19722 37221 16321 40776 30175 55013 20469
+  9769 13833 73372 12784 58722 24294 31277 38858 75863 13013 13204 18021
+ 11082 12647 10656 10609 18026 20129 18249 29869 15136 53359 44385 23149
+ 25859 11281 11796 25923 26835 98723 93450 52775 18246 15085 20309 18433
+ 21453  6867]
+[258374  10511  10023  47530  10961  16296  40835  30224  22399 165016
+ 170660  16646  10209  17369  16657  11285  19063  19589   6328  70223
+  24391  10315  10664  14317  11434  13801  11039  10192  14128  14991
+   9229  14850  17966  23140      0   9762  36108  12543  11728  26529
+  20405  59491 171184  15394  20234  17959  26694  14516  15905  13222]
+[106786  13546  10472  33719  10582  35228  43102  53149  80959  56660
+ 196847  16410  15197  26055  14108  11660  24917  19703  26968  58212
+  22005  10636  13277  15850  10516  54017   9994  10933  22833  14257
+   9829  14797  14428  14842  38958  11967  41350  12028  10084  17482
+  35921  39280  27453   9812  17642  11505  20898  46918  54405  22943]
+MEAN:
+[35047.22 38031.92 28431.4  32846.58 30222.8 ]
+
+#################
+#GRADE VIEW TIME#
+#################
+
+RAW TIMES:
+[23134  2610  2349  5234  3369 42161 15366  2308  4217  6654  2474  7738
+  7321 36306  8673  2010  5475  4248  6352  6397  4475  1668  2536  2838
+  3627  4822  1772 13727  2804  3607  3244  4536  2737 48637  8762  3201
+  6164  2115  4255 12727  5505 26128 19229  2170 15264  4184  8016  4686
+  5681  7740]
+[21484  5040  3140  7271  3233 11632 24942  7178 30415  8393  2881 11516
+  4373 15843 10089  9601  4751  4469  4085 11337  4644  1799  2538  3612
+  2370  5320  1952  3064  4679  3156  2211  3372  3058 11550 10261  3697
+  7555 10461 14942 21756 15812 42375 24199  3048  3779 10951  3607  3527
+  4043  6776]
+[12170  2941  4280  8785  1654  9729 16483  3045 18692 20536 24300  7020
+  2652 15738  4781 13408  7564 12170  7811 33999 13380  5509 14570  4826
+  2095  5457  3048  2837  5632  7471  6187  4024  3692  4904 29604 16558
+  5703  2629  2841  8031 18780  7630 14311  5699 13375  4016  4829  4023
+  4772 30772]
+[ 16051   2674   4253   6141   4224   5397  14805   2430  17378  31244
+   2704   5365   2158  17046   9334  12107   4501  14003   9131   6651
+  28731   2033   3287   2249   1637   9393   7684   3379   2994   8903
+   1871   7101   3146   9527 124224   2829   4960   4446   2812  12336
+  43600   5330  29136   2976   4465   3644   4493   3146   4793   9864]
+[ 17302   7484   3027   6425   2006  10077  17639   2739  55911  18948
+ 220164   5835   9707  12970   3809   4260   5634   4431   4336   5089
+   9109   2097   2389   3222   1925   8871   2763   1987   3919   4963
+   2051   5312   3402   5480  10989   2963  23582   2090   3769   8630
+   5114   9801   5908   2348   5645   4294   4168   3724   4242   6224]
+MEAN:
+[ 8625.06  8835.74  9699.26 10851.72 11575.48]
+
+###############
+#DEVICE COUNTS#
+###############
+
+Desktop: 28
+Laptop: 16
+Tablet: 2
+Smart phone: 4
+Other device: 0
+
+##################
+#AGE GROUP COUNTS#
+##################
+
+18 - 24: 7
+25 - 31: 23
+32 - 38: 10
+39 - 45: 3
+46 - 52: 3
+53 - 59: 3
+60 and above: 1
+
+################
+#NETWORK COUNTS#
+################
+
+WiFi: 30
+Cable network: 16
+Cellular network: 4
+Other: 0
+
+###########
+#REASONING#
+###########
+
+AKW57KYG90X61: There was a slight difference in speed and quality.
+A1V2H0UF94ATWY: slight hesitations reflected in voice and playback on some of the videos
+A3PRZRK9IC5CBI: very brief freeze in some of them
+AVX3SWFMBEPMZ: None
+A1P6OXEJ86HQRM: They all seemed bad. They were a little different but they all had weird pauses and the audio was always out of sync
+A2MT0EBEHD9XGZ: None
+A1TLQ6BTDQX7US: None
+A1Q5RFVJKMZBEN: Some just had the video studder and the audio is fine, whereas some have both the audio and video studder
+A191S6OYAK1N2Q: some videos have some quality.
+A15CCQOQIM1OY8: every video has some quality.
+A309RFIHZPQ6GN: None
+A1ORUO2MGV9AT6: none
+A1GKD3NG1NNHRP: some stopped and paused then started again
+A2ALCGZ1QWAMNO: None
+A1K1YOUOJ2P57H: none
+A3N0QZ9ZKUCTCQ: None
+A2572ICEYJUEI1: None
+ARRVI6AGG4ULP: Some of them was more fluid
+A1DK9V1GFCDASQ: none
+A3QG3P9I7SVSNE: NONE
+AZBS0MVCBSCGY: It is very suspence video but some times video stopped but quality is good.
+A2S4YDJ9UGAXFQ: Some of the videos had slight hiccups during the stream.
+AJW3PL5UDH4BP: there was a brief pause at different times in the video, except for one video where there was no pause
+A2XQ3CFB5HT2ZQ: none
+A2CK0OXMPOR9LE: Audio quality and buffering times.
+A8WLCSZLNZ8BL: some video streamings were pausing for a few seconds in the starting and some at the end part
+A2EKR2ZFO10VMV: The lengths of time it paused for loading were different lengths.
+A1LSGYXKP6O1B8: Besides the first video they all had a stop for rebuffering and I think some were longer than others
+A1UU6W7EDFNGSD: I noticed that two of the five videos buffered/paused for a quick second. 
+A2JDJFBKD3U830: Some of the videos took longer buffering, but no visible issues that I could see in the video.
+A3C0NQ2IP5FTZQ: I noticed one of the videos had a stutter while some of the videos had a complete pause. One of the videos played the video without stuttering.
+A2807HUMU6JG6Z: very nice and good quality
+A1B76WYZ47BQJ: when it paused during the video.
+A1DIXDR0Y7KXMT: None
+A25J1XF62KBXFC: i notice there's a delay in the last two vídeos.
+A16HSMUJ7C7QA7: In alll of them except one there were pauses and some sound distortion, but I did not notice a difference other than that.
+AGJTJN49ZVPMZ: The difference was that between the number one to three the picture video quality was not too pleasing but that of 4 and 5 are good 
+A3RYI5HXC2MJLN: any buffering in the video is unacceptable 
+A2VRDE2FHCBMF8: Some of the video got a little buffering/interrupted playing for less than a second, but all of them had a very high image quality
+A2U0JT7TSIIXPS:  quality of video
+A2GRJVN7B5YR96: none
+AQ95Z9O4NLMG0: video quality different
+A366YWY1JQO4DH: some quality may de differed.
+AEWGY34WUIA32: sometimes they'd stutter
+A1N3CINFNZ2X7E: nothing
+A2P7IU3JLL4VW2: "None"
+A39FP7MIGFILTM: None
+A4TQSZDPARE7I: None
+A10CWGO4F50WBY:  "None"
+A7Y7B7E5NNGR1: NONE

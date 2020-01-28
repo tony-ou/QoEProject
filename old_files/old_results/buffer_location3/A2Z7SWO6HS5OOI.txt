@@ -1,0 +1,9 @@
+5,4,5,5,5,4
+5,2,6,3,4,1
+36375,35207,35436,37425,35896,32979
+1857,3812,2717,4112,5167,3191
+A2Z7SWO6HS5OOI
+Desktop
+25 - 31
+WiFi
+I noticed some frame drops and lag, and it seemed oversaturated in spots

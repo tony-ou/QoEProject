@@ -1,0 +1,9 @@
+2,1,1,1,2
+1,3,2,5,4
+14126,11091,11082,11434,10516
+3627,2370,2095,1637,1925
+A2CK0OXMPOR9LE
+Desktop
+25 - 31
+WiFi
+Audio quality and buffering times.

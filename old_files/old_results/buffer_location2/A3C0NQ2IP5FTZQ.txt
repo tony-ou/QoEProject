@@ -1,0 +1,9 @@
+5,3,4,2,2
+3,1,2,4,5
+13509,12573,18249,9229,9829
+3244,2211,6187,1871,2051
+A3C0NQ2IP5FTZQ
+Smart phone
+25 - 31
+WiFi
+I noticed one of the videos had a stutter while some of the videos had a complete pause. One of the videos played the video without stuttering.

@@ -1,0 +1,184 @@
+LOG OF buffered3 SURVEY RESULTS
+
+########
+#GRADES#
+########
+
+RAW GRADES:
+[2 1 2 4 2 4 2 4 5 2 4 2 4 4 2 4 1 4 5 4 5 3 2 5 2 2 2 2 5 5 1 4 2 4 4 1 3
+ 4 4 5 4]
+[2 2 2 4 2 2 2 4 5 2 3 1 2 4 2 4 1 2 1 4 3 3 2 5 2 1 5 3 4 5 1 2 4 4 4 4 4
+ 5 4 5 5]
+MEAN:
+[3.195 3.073]
+STANDARD ERROR:
+[0.205 0.208]
+
+STANDARDIZED GRADES:
+[ 0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  1.  0.  0.  0.  0.  1.
+  1.  0.  1.  0.  0.  0.  0.  1. -1. -1.  1.  0.  0.  1. -1.  0.  0. -1.
+ -1. -1.  0.  0. -1.]
+[ 0.  1.  0.  0.  0. -1.  0.  0.  0.  0. -1. -1. -1.  0.  0.  0.  0. -1.
+ -1.  0. -1.  0.  0.  0.  0. -1.  1.  1. -1.  0.  0. -1.  1.  0.  0.  1.
+  1.  1.  0.  0.  1.]
+MEAN:
+[ 0.049 -0.049]
+STANDARD ERROR:
+[0.103 0.103]
+
+#############
+#VIDEO ORDER#
+#############
+
+RAW ORDERS:
+[2 1]
+[1 2]
+[2 1]
+[2 1]
+[2 1]
+[1 2]
+[2 1]
+[1 2]
+[1 2]
+[1 2]
+[1 2]
+[1 2]
+[1 2]
+[1 2]
+[2 1]
+[2 1]
+[2 1]
+[1 2]
+[1 2]
+[1 2]
+[1 2]
+[2 1]
+[1 2]
+[2 1]
+[2 1]
+[1 2]
+[2 1]
+[2 1]
+[2 1]
+[1 2]
+[2 1]
+[2 1]
+[2 1]
+[1 2]
+[2 1]
+[2 1]
+[1 2]
+[1 2]
+[1 2]
+[1 2]
+[1 2]
+
+#################
+#VIDEO VIEW TIME#
+#################
+
+RAW TIMES:
+[ 20458  23931  22488  26211  23781  21911  24930  36712  24404  40927
+  25767  32465  22087  26727  33871  41474  25409  27640  68905  23003
+  19267 115377  25495  34617  39299  17664  28364  19384 368261  31629
+  19661  23783  24405  25729  22641  31700  25691 110233  23639  92341
+  75194]
+[25105 26148 53899 29126 24403 22873 34835 34380 14482 22776 31937 27261
+ 25291 30873 26085 41493 26300 26049 20749 24956 21555 30012 26145 36450
+ 44460 18446 27056 20674 62627 34530 22437 54947 25342 31834 28836 35238
+ 32367 83967 33131 29807 36699]
+MEAN:
+[43109.146 31843.439]
+
+#################
+#GRADE VIEW TIME#
+#################
+
+RAW TIMES:
+[ 5814  4983  3677  2981  7784  5972  4158 10465  8809 10296  7857 32069
+ 12098 20934  4009 38080  4810 10069 16705  7444  6517  4685  8959 13851
+  9582  6588  4231  2433 72170  5376  3243  4176  6160 11989  6929  5401
+ 13148 12791  5524 39562  6221]
+[ 8314  4072  6132  6417 20221  5259  8781 14806  3985  7537  6014  8292
+  3926  9778  3599  5684  4853  3610  8796  2727  4020  9726  7656 16406
+ 14831  5815 11591  8804  7891  5038  7602 20210 16980  5611 14502 12209
+  5817 22232  3740 23728  9004]
+MEAN:
+[11428.049  9176.   ]
+
+###############
+#DEVICE COUNTS#
+###############
+
+Desktop: 20
+Laptop: 18
+Tablet: 2
+Smart phone: 1
+Other device: 0
+
+##################
+#AGE GROUP COUNTS#
+##################
+
+18 - 24: 5
+25 - 31: 18
+32 - 38: 8
+39 - 45: 0
+46 - 52: 6
+53 - 59: 3
+60 and above: 1
+
+################
+#NETWORK COUNTS#
+################
+
+WiFi: 26
+Cable network: 12
+Cellular network: 2
+Other: 1
+
+###########
+#REASONING#
+###########
+
+AAIQLE701DI9U: None
+A3RYI5HXC2MJLN: just the odd buffer ands stoppage of video is what i noticed.
+AT4QUBMY4BXN7: Both videos got stuck around after the 10th second
+A1B76WYZ47BQJ: None
+A2LAMCJLVCRQ4T: The only difference I noticed was the long pause during the video. I felt like the first one had a much longer one but even the pause in the second video is unacceptable to me.
+A6579YP5QRY5W: Longer buffering in 2nd video
+A2INXY39KBM92F: One seemed more clear, but paused more often while the other wasn't as clear and only paused once.
+A1ZZINLCZZYOH4: video freezing in the middle
+A15VCKELIEEPJN: The first one was somewhat clearer in definition. 
+a1p2rq166vsbt: Honestly, it buffered at the same exact place in both videos and no sound was present.   The first video buffered twice and the second video buffered once.  
+AIK9IRPT4M848: The pause seemed longer in the second video. I assumed it was buffering but I now believe it was intended by you.
+A1VZSFHTU51JP0: They both had this weird lag about 11 seconds in. The second one seemed to kind of freeze longer though which is why I rated it as I did. I have to assume the second video was uploaded using some excessively high quality level.
+A272X64FOZFYLB: One had more buffering time than the other, but the actual quality of the videos seemed identical.
+A4QDCBGN79832: none
+A2YGOORS5N9RW8: they both had a lag interruption, but the 2nd video seemed to be a bit less
+A9HQ3E0F2AGVO: none
+A2JP9IKRHNLRPI: None
+A16TP8YGKE1FJ5: it stopped both videos but the first stopped just for a moment. The second one stopped for a few seconds 
+A25OSUXL5HQ85C: None
+A1V2H0UF94ATWY: None
+A5NE8TWS8ZV7B: The second one stalled for a long time.
+A2OG8XRYJ56HS7: I did not notice a very significant difference. I noticed that there may have been some subtle differences in quality, but I am not very skilled at discerning such subtle differences, so I was unable to analyze those differences very specifically. -- However, I did notice a "dropout" (a temporary pause or delay) after the midpoint of playback of both videos; but the probable cause of such dropouts is that my computer is old and slow.
+A2XQ3CFB5HT2ZQ: none both were jumpy and I would not have watched in that quality
+ANWVVA7X40YT2: None
+AJY5G987IRT25: One of the videos had a longer screen freeze than the other, more specifically the first one.
+A3U6IA3JUSFZ2M: None
+A20N1NK5X5S88F: the second video stuttered and stopped while playing and loading
+AD14EQ9O9JKRI: None
+A2ZWWHY6ZEXC6L: VERY LOW QUALITY
+A10AY39RH8ZB7I: Second video is best i am like 
+A258MR1IS96JEP: none
+AF1MN25P3XFLG: The first one, the page jumped more than the second one. 
+A2R89RXGEVG05I: The second one's sounds were off or something was a bit off...it was not smooth and felt weird.
+A3QG3P9I7SVSNE: NONE
+A2PZS0DYRLS59P: None
+A369HDC6T90Q1H: It is some time video stop and play but quality level is good.
+A2FDEBTHDRUHRK: NONE
+AZBS0MVCBSCGY: It is very suspence video but some times video stopped but quality is good.
+A3GK90X2QOFR53: None
+AUYQ097EMATW1: noting
+AMFN57BJVYPPE: None

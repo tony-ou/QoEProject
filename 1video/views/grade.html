@@ -1,0 +1,55 @@
+{% extends "base.html" %} {% block main %}
+<div class="col-md-6 col-md-offset-3" style="text-align:center">
+    <h2>Please decide to which extent you agree with the following statement:</h2>
+    <h2>A video that is streamed as shown in the last page provides a satisfactory experience </h2>
+    <h3>Progress: {{count}} / {{num_vids}}</h3>
+</div>
+
+<div class="col-md-6 col-md-offset-3">
+    <form action= "next" method="POST" style="text-align:center">
+        <div class="btn-group-vertical" data-toggle="buttons" id="Inputs">
+            <label class="btn btn-default"><input id="StronglyPositive" name="sentiment" required="" type="radio" value="5" /><h4>Strongly Agree</h4>
+            </label> 
+            <label class="btn btn-default"><input id="Positive" name="sentiment" required="" type="radio" value="4" /><h4>Agree</h4>
+            </label>
+            <label class="btn btn-default"><input id="Neutral" name="sentiment" required="" type="radio" value="3" /><h4>Neutral</h4>
+            </label> 
+            <label class="btn btn-default"> <input id="Negative" name="sentiment" required="" type="radio" value="2" /><h4>Disagree</h4>
+            </label> 
+            <label class="btn btn-default"> <input id="StronglyNegative" name="sentiment" required="" type="radio" value="1" /><h4>Strongly Disagree</h4>
+            </label> 
+        </div>
+        </br></br>
+        <button type="submit" class="btn btn-primary" style="text-align:center; font-size:20px">Watch next video</button>
+    </form>
+</div>
+
+<div class="col-md-6 col-md-offset-3">
+    <form action="back2video", method="POST", style="text-align:center">
+    </br>
+        <button type="submit" class="btn btn-primary">Watch again</button>
+    </form>
+</div>
+</br>
+<!-- Open internal javascript -->
+<script>
+        $(document).ready(function() {
+            // highlight selected category
+            var inputs = $("#Inputs input:radio");
+            inputs.change(function(){
+              inputs.parent().removeClass("btn-success");
+              inputs.parent().addClass("btn-default");
+              if($(this).is(":checked")){
+                $(this).parent().removeClass("btn-default");
+                $(this).parent().addClass("btn-success");
+              }else{
+                $(this).parent().removeClass("btn-success");
+                $(this).parent().addClass("btn-default");
+              }
+            });
+            // end highlight
+          });
+</script>
+<!-- Close internal javascript-->
+
+{% endblock %}

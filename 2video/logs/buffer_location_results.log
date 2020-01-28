@@ -1,0 +1,260 @@
+LOG OF buffer_location SURVEY RESULTS
+
+########
+#GRADES#
+########
+
+RAW GRADES:
+[2 4 5 4 5 4 3 4 4 5 4 5 5 4 5 4 4 5 3 4 1 3 5 5 4 3 5 4 4 5 4 4 4 4 5 4 4
+ 4 5 4 1 5 4 5 1 5 4 4 4 4]
+[5 3 4 4 1 2 2 5 5 5 3 4 4 4 4 4 4 5 4 4 5 4 3 5 5 5 5 4 3 4 4 4 2 2 4 4 5
+ 3 5 4 3 2 4 3 1 3 4 4 3 4]
+[4 1 4 5 4 2 2 3 3 1 3 5 4 4 5 4 4 4 2 2 1 4 2 4 4 4 4 4 5 5 4 4 1 2 4 5 4
+ 4 4 4 1 2 4 3 1 2 2 4 2 5]
+[2 2 3 5 5 2 1 4 4 1 2 5 4 4 5 4 3 2 2 2 2 5 2 4 4 4 3 4 3 4 4 2 2 1 4 4 4
+ 5 4 3 1 3 3 3 1 2 3 4 4 3]
+[2 1 4 4 5 2 1 4 4 1 2 5 4 4 5 5 4 2 2 4 1 4 2 3 5 4 4 4 2 5 4 3 1 1 2 2 4
+ 4 4 4 1 3 5 2 1 1 4 4 2 4]
+MEAN:
+[4.02 3.74 3.3  3.14 3.1 ]
+STANDARD ERROR:
+[0.143 0.149 0.179 0.17  0.194]
+
+STANDARDIZED GRADES:
+[-0.791  1.543  1.581 -0.816  0.645  2.     1.604  0.     0.     1.225
+  1.604  0.5    2.     0.     0.5   -0.5    0.5    1.032  0.5    0.816
+ -0.645 -1.581  1.886  1.069 -0.816 -1.581  1.069  0.     0.588  0.816
+  0.     0.75   1.826  1.826  1.225  0.204 -0.5    0.     1.225  0.5
+ -0.5    1.826  0.     1.837  0.     1.769  0.75   0.     1.118  0.   ]
+[ 1.581  0.686  0.    -0.816 -1.936 -0.5    0.267  1.581  1.581  1.225
+  0.267 -2.    -0.5    0.    -2.    -0.5    0.5    1.032  1.75   0.816
+  1.936  0.     0.171  1.069  1.225  1.581  1.069  0.    -0.392 -1.225
+  0.     0.75   0.     0.     0.204  0.204  2.    -1.581  1.225  0.5
+  2.    -0.913  0.    -0.204  0.     0.295  0.75   0.     0.     0.   ]
+[ 0.791 -1.029  0.     1.225  0.    -0.5    0.267 -1.581 -1.581 -0.816
+  0.267  0.5   -0.5    0.     0.5   -0.5    0.5    0.295 -0.75  -1.225
+ -0.645  0.    -0.686 -0.267 -0.816  0.    -0.267  0.     1.569  0.816
+  0.     0.75  -0.913  0.     0.204  1.225 -0.5    0.    -0.816  0.5
+ -0.5   -0.913  0.    -0.204  0.    -0.442 -1.75   0.    -1.118  1.581]
+[-0.791 -0.171 -1.581  1.225  0.645 -0.5   -1.069  0.     0.    -0.816
+ -1.069  0.5   -0.5    0.     0.5   -0.5   -2.    -1.18  -0.75  -1.225
+  0.     1.581 -0.686 -0.267 -0.816  0.    -1.604  0.    -0.392 -1.225
+  0.    -1.75   0.    -0.913  0.204  0.204 -0.5    1.581 -0.816 -2.
+ -0.5    0.    -1.581 -0.204  0.    -0.442 -0.5    0.     1.118 -1.581]
+[-0.791 -1.029  0.    -0.816  0.645 -0.5   -1.069  0.     0.    -0.816
+ -1.069  0.5   -0.5    0.     0.5    2.     0.5   -1.18  -0.75   0.816
+ -0.645  0.    -0.686 -1.604  1.225  0.    -0.267  0.    -1.373  0.816
+  0.    -0.5   -0.913 -0.913 -1.837 -1.837 -0.5    0.    -0.816  0.5
+ -0.5    0.     1.581 -1.225  0.    -1.18   0.75   0.    -1.118  0.   ]
+MEAN:
+[ 0.572  0.274 -0.147 -0.407 -0.292]
+STANDARD ERROR:
+[0.132 0.142 0.107 0.118 0.117]
+
+#############
+#VIDEO ORDER#
+#############
+
+RAW ORDERS:
+[2 3 4 1 5]
+[1 2 4 3 5]
+[5 4 3 1 2]
+[4 1 3 5 2]
+[1 2 3 5 4]
+[1 4 3 5 2]
+[1 5 3 2 4]
+[1 5 3 2 4]
+[4 1 3 5 2]
+[1 2 5 4 3]
+[1 3 2 4 5]
+[2 1 4 5 3]
+[1 3 2 5 4]
+[3 4 1 5 2]
+[2 1 5 3 4]
+[2 1 4 3 5]
+[5 4 3 1 2]
+[1 3 2 4 5]
+[4 3 5 2 1]
+[2 5 3 1 4]
+[2 4 3 5 1]
+[1 3 4 5 2]
+[3 4 2 1 5]
+[3 2 5 4 1]
+[4 3 2 1 5]
+[3 5 4 1 2]
+[4 2 3 1 5]
+[2 4 5 1 3]
+[1 3 4 5 2]
+[5 4 2 1 3]
+[4 1 5 2 3]
+[3 1 2 5 4]
+[2 5 3 4 1]
+[1 5 2 4 3]
+[5 2 1 3 4]
+[3 2 4 5 1]
+[4 1 5 3 2]
+[5 2 3 4 1]
+[3 1 4 5 2]
+[5 2 1 3 4]
+[3 5 4 1 2]
+[5 4 1 3 2]
+[1 5 4 3 2]
+[4 3 1 5 2]
+[5 4 2 1 3]
+[1 3 5 4 2]
+[1 3 4 2 5]
+[5 3 1 4 2]
+[4 5 3 1 2]
+[3 5 1 4 2]
+
+#################
+#VIDEO VIEW TIME#
+#################
+
+RAW TIMES:
+[ 19715  54949  43209  35542  48918  20920  20787  49340  20976  19480
+  22348  41398  20287  27933  22620  32927  17158  22472  23015  19219
+  50687  45169  19338  18379  89297  25140  41523  27866 166711  21360
+  24307  23911  19163  17522  17826 107401  38948  24286  18485 107745
+  14922  12743  30914  61877  20181  43599  60024  42339  39028  40945]
+[ 19569  64401  30553  25839  43691  18492  25628  64010  20939  21648
+  21314  43143  20731 108537  44960  30093  16983  20781  20440  21031
+  21032  27446  21187  21624  66180  85245  32189  51623 113230  26538
+  23277  23409  45025  17164  19126  23033 210033 109941  21136 138293
+  21487  14651  33345  30433  21776  70299  39397  27522  45180  30010]
+[ 21514  32290  46493  37825  32892  22892  41834  35981  29213  18508
+  22463  39790  19976 239041  33952  15688  22367  21104  22279  20744
+  19712  59508  22971  21673  45064  90488  40390  26199 123126  41914
+  25286  46072  20201  18696  18608  23360 196413  22081  24464  53404
+  39756  16510  41731  29181  21579  58924 258652  45806  41325 125059]
+[ 20665  28507  42842  38794  26377  22211  38163 202519  21821  22788
+  20129  50021      0  24782  27746  35706  14232  18950  20310  13632
+  18852  39640  20811  20900  39895  31889  63725  24868 121323  47324
+  19086  23005  20795  17597  21371  22811  32558  27097  20591 190207
+  23576  13605  39840  53377  23537  44212  43206  22395  47134  72448]
+[ 23111  31927  34467  26603  26716  29475  55061  74785  23258  22459
+  21895  39587  19212  18443 160432  27282  20540  19075  20519  17025
+  52703  32566  19881  20675  34378  24362  24428  22157  84670  26961
+  17319  22890  23512  17522  22009  31492  30583  29500  19507 170225
+  17247  17101  26150  39537  24006  41692  49714  60959  40067 141937]
+MEAN:
+[37096.98 42272.28 47899.98 37957.4  37952.44]
+
+#################
+#GRADE VIEW TIME#
+#################
+
+RAW TIMES:
+[ 2192 15270  9982  7414 19875  8606 16202 14360  3558  3408  7463  8819
+  6764  5289  5414 23594  3209  6847  3785  2206  2639 14881  2564  6421
+ 12862  4209  5025 11626 30565  3635  3667  4291  3023  7881  2253  2841
+  3829  2669  2688 13372  3893  1735 10929  4563  4916  5583 26040  8873
+  2901 60329]
+[ 7648  5077  6149  5595  5513  2401 12156  7771  1665  2771  2145 10487
+    36  4689  7297  8265  3033  3142  3023  5113  4625 52917  1991  3604
+ 15866 12261 13830  3382  6264 19676  7172  9102 18070  1733  3425  3067
+  4990  3013 10035 10203  4864  2143  4890  5204  3306 12823 11183  3413
+  6350 22748]
+[ 3314  6308  7156  8373  3811  2130  7095 16399  1925  1905  5661  4686
+  3364 16362  4178  5384  3449  4761  4135  2967  2803 11364  5973 14997
+ 34124 37815  8356  5574 40663  4620  3157 16497  4121  1426  6097  8250
+  5553  2596  8632 11077  6861  2476 20240 74456  4210 12907 27820  8108
+  7983 57389]
+[ 2237 23200  9592 11300 10681  2234 11900 12910  5019  2302  2162  7140
+  4161  3780  5121  3226  4604  2504  5928  3519  2356  9894  2943  6194
+ 11696 12090 56801  8791  6373  7334  3763  3631  4498  1883  2723  2486
+ 16183  4281  4179 12248  4659  3833 21852 73859  6635 13651 23907  3495
+ 12618 25578]
+[  2373   9196  10009   8194  14426   2268 333460   6775   2175   2121
+   3749   4418   3099  11561  19567   3400   5460   2391   2355   5993
+   3322   6053   2075  11071   5673  21565   5500   3586   5585  10474
+   3958   6959   7349   2063   9576   2349   6295   8861   1966   9266
+   4753   7330  10393  11514   9022  13302  24428  13830   3044  15269]
+MEAN:
+[ 8899.2   7722.52 11390.16 10079.08 13988.42]
+
+###############
+#DEVICE COUNTS#
+###############
+
+Desktop: 18
+Laptop: 28
+Tablet: 1
+Smart phone: 3
+Other device: 0
+
+##################
+#AGE GROUP COUNTS#
+##################
+
+18 - 24: 3
+25 - 31: 23
+32 - 38: 14
+39 - 45: 5
+46 - 52: 3
+53 - 59: 2
+60 and above: 0
+
+################
+#NETWORK COUNTS#
+################
+
+WiFi: 31
+Cable network: 15
+Cellular network: 4
+Other: 0
+
+###########
+#REASONING#
+###########
+
+A1P6OXEJ86HQRM: The sound was weirdly out of sync and some of the videos had pauses.
+A1QWX16ZJ9P6UH: Gradually the video buffering was increased to consecutive videos.
+A1XLJITNEP7KED: the videos is very nice quality
+A1ZIL55KKMXE31: in some videos it had stucked in between and in some it was really good to see and without intepreting
+A20FYCXV508HM9: Main difference between those videos playing time. some had 14 seconds some had 15 seconds and one video buffered lot So I can't play.
+A26NGLGGFTATVN: Some of them lagged for 1 to 2 seconds and the sound was out of sync.
+A2C6HMH2FDM2CI: I saw a little difference between video, they all buffered too much.
+A2GRJVN7B5YR96: none
+A2IGPW784OFV3D: Slight pauses 
+A2JP9IKRHNLRPI: The first video did not have any lag in playback whereas the other four did. 
+A2Q24MV0Z83KMP: There were pauses in the video at different points.
+A2RYP5HCVKX4A6: None
+A30MP4LXV4MIFD: Some of the later videos had a little stuttering. I consider one or two stutters normal, but more than that becomes unwatchable.
+A36XG2BJZH6ZKJ: color and timing
+A3AHAY1VIJDCGX: good
+A3C5G8LGIAW0XL: DETAILS/ DEFINITION
+A3HWIDZ2MRAKTX: none
+A3PRZRK9IC5CBI: a couple of them froze for a second or two in spots
+A3RYI5HXC2MJLN: pauses in the video like buffering was what i saw
+APTTMHLQ0C8DO: some of them had a lag spike in the middle where the video paused for part of a second
+AV22FQTJNBUZT: When videos played slowly or "skipped"
+AWIVX59AEP746: the video playback is very nice quality
+A24LUXW1DB1QI5: freezing
+A15VCKELIEEPJN: Some of the videos lagged because the HD was so high. Others had less resolution but didn't lag and they were still clear to watch.
+A2U7U0A4G92GTR: none
+A366YWY1JQO4DH: some quality may de differed.
+A3HZEWILX5PQSJ: none
+A1FW7GH5HSMLMJ: None
+A21SP7E5DFFX37: None
+A3V2TB3V8BNBXK: None
+A140DTJHRHQM4F: none
+A129DU6FOHUVNO: the lag, but the freeze was so short that all videos seemed to me to be of good quality
+A12HZGOZQD5YK7: The delay in playing sometimes and the sound being off with what was happening in the video.
+A1F1BIPJR11LSR: Clipping in the video and lag in the sound effects.
+A1IMO5XR05U7S5: The one that had no buffering or stutters got the highest rating. 
+A1J8TVICSRC70W: Load times, jumpiness
+A1JLHMKBGSRROO: Wide range
+A1PEUJ23G02GUZ: None
+A1T0ND039EWAVV: A couple of them froze once during playing
+A1ZZINLCZZYOH4: none
+A20N1NK5X5S88F: none
+A2CK0OXMPOR9LE: The timing of them. Some were at the beginning, some in the middle, and some in the end.
+A2IPO6UJZDIQ91: None
+A2PVZDPID5909B: All the videos were good in terms of quality. But each video started with a small stop in its interim time. I don't see any major problems other than that.
+A2XQ3CFB5HT2ZQ: none, all were jumpy as heck
+A39TOBOIX83OC2: There was brief freeze for a second or two like buffering in all videos except the first one. It's not my internet, I let them to load first and there is was small freez in the last four videos.
+A3AJ1FK1HXDM6E: HAVE SMALL DIFFERENCE
+A3PLRMX7LGFL0A: None
+AHNTQ064RY9R2: 3 videos stuck at some time (seen two times each, same frame), and I think audio desync in most of them
+ATBBPV37O4K6N: none
