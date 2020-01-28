@@ -29,8 +29,7 @@ var post_start = async (ctx, next) => {
         network : network,
         video_order : video_order,
         count : 1,
-        lResult : [],
-        rResult : [],        
+        result : [],
         video_time : [],
         grade_time : [],
         start : start
@@ -90,14 +89,11 @@ var post_back2video = async (ctx, next) => {
 
 var post_next = async (ctx, next) => {
     var user = ctx.state.user;
-    var lGrade = ctx.request.body.lSentiment;
-    var rGrade = ctx.request.body.rSentiment
-    user.lResult.push(lGrade);
-    user.rResult.push(rGrade);
-    
+    var grade = ctx.request.body.sentiment;
+    user.result.push(grade);
     var end = new Date().getTime();
     var exe_time = end - user.start;
-    user.video_time[user.count-1] += exe_time;
+    user.grade_time[user.count-1] += exe_time;
 
     user.start = end;
     if(user.count < num_vids) {
@@ -136,8 +132,9 @@ var post_end = async (ctx, next) => {
     var write_data = [];
     var write_video_time = [], write_grade_time =[];
     for(var i in user.video_order) {
-        write_data[user.video_order[i] - 1] = [user.lResult[i],user.rResult[i],"  "];
+        write_data[user.video_order[i] - 1] = user.result[i];
         write_video_time[user.video_order[i] - 1] = user.video_time[i];
+        write_grade_time[user.video_order[i] - 1] = user.grade_time[i];
     }
     fs.writeFile(filename, write_data + '\n'+ user.video_order + '\n' + 
                 write_video_time + '\n'
