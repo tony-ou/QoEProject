@@ -2,7 +2,7 @@
 var getOder = require('../models/random');
 var fs = require('fs');
 
-const vid_folder = "buffer_location3";
+const vid_folder = "2vid_test";
 var vid_path = "../videos/" + vid_folder;
 var video_url = "https://github.com/tony-ou/QoEProject/raw/master/videos/" + vid_folder + "/";
 
