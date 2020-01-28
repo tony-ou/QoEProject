@@ -4,12 +4,12 @@ var fs = require('fs');
 
 const vid_folder = "buffer_location3";
 var vid_path = "../videos/" + vid_folder;
-var video_url = "https://github.com/sheric98/QoEProject/raw/master/videos/" + vid_folder + "/";
+var video_url = "https://github.com/tony-ou/QoEProject/raw/master/videos/" + vid_folder + "/";
 
 var num_vids;
 
 fs.readdir(vid_path, function(err, files) {
-    num_vids = files.length;
+    num_vids = files.length / 2;
     console.log(vid_path + " has " + num_vids + " files");
 });
 
@@ -45,48 +45,21 @@ var post_start = async (ctx, next) => {
     
     let value =  Buffer.from(JSON.stringify(user)).toString('base64');
     ctx.cookies.set('name', value);
-    var video_src = video_url + video_order[0] + ".mp4";
+    var l_video_src = video_url + video_order[0] + "_0.mp4";
+    var r_video_src = video_url + video_order[0] + "_1.mp4";
+    
     // https://github.com/michaelliao/learn-javascript/raw/master/video/vscode-nodejs.mp4
     // very interesting url!
 
     var title = "1/" + num_vids;
 
     ctx.render('video.html', {
-        title: title, video_src : video_src
-    });
-}
-
-var post_grade= async (ctx, next) => {
-    var user = ctx.state.user;
-    var end = new Date().getTime();
-    var exe_time = end - user.start;
-    user.video_time[user.count-1] += exe_time;
-    user.start = end;
-    
-    let value =  Buffer.from(JSON.stringify(user)).toString('base64');
-    ctx.cookies.set('name', value);
-
-    var title = user.count + "/" + num_vids;
-    ctx.render('grade.html', {
-        title: title, count: user.count, num_vids: num_vids
+        title: title, l_video_src : l_video_src, r_video_src : r_video_src,  count: user.count, num_vids: num_vids
     });
 }
 
 
-var post_back2video = async (ctx, next) => {
-    var user = ctx.state.user;
-    var video_src = video_url + user.video_order[user.count - 1] + ".mp4";
-    var end = new Date().getTime();
-    var exe_time = end - user.start;
-    user.grade_time[user.count-1] += exe_time;
-    user.start = end;
-    let value =  Buffer.from(JSON.stringify(user)).toString('base64');
-    ctx.cookies.set('name', value);
-    var title = user.count + "/" + num_vids;
-    ctx.render('video.html', {
-        title: title, video_src: video_src
-    });
-}
+
 
 var post_next = async (ctx, next) => {
     var user = ctx.state.user;
@@ -109,7 +82,7 @@ var post_next = async (ctx, next) => {
         let value =  Buffer.from(JSON.stringify(user)).toString('base64');
         ctx.cookies.set('name', value);
         ctx.render('video.html', {
-            title: title, video_src: video_src
+            title: title, video_src: video_src, count: user.count, num_vids: num_vids
         });
     }
     else {
@@ -136,7 +109,7 @@ var post_end = async (ctx, next) => {
     var write_data = [];
     var write_video_time = [], write_grade_time =[];
     for(var i in user.video_order) {
-        write_data[user.video_order[i] - 1] = [user.lResult[i],user.rResult[i],"  "];
+        write_data[user.video_order[i] - 1] = [user.lResult[i].toString() + " "+user.rResult[i].toString()];
         write_video_time[user.video_order[i] - 1] = user.video_time[i];
     }
     fs.writeFile(filename, write_data + '\n'+ user.video_order + '\n' + 
@@ -160,8 +133,6 @@ var post_end = async (ctx, next) => {
 
 module.exports = {
     'POST /start' : post_start,
-    'POST /grade': post_grade,
-    'POST /back2video':post_back2video,
     'POST /next' : post_next,
     'POST /end' : post_end
 };
