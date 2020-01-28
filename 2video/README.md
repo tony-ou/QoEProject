@@ -34,8 +34,10 @@ These are source codes for 2video experiment.
    ```shell
    npm install
    ```
+4. Put folder of test video pairs under root/videos/ . Videos should be named as "i_j.mp4" where i means i-th pair (starting from 1) and j is 0 (play on left side) or 1 (play on right side). Then set `vid_folder` in start.js 
+to video folder name.
 
-4. Start the server on localhost:
+5. Start the server on localhost:
 
    ```shell
    node app.js
@@ -43,7 +45,7 @@ These are source codes for 2video experiment.
 
    If you run into any errors regarding modules not found, try removing the "node_modules" folder and go back to step 3.
 
-5. Visit `localhost:3001` on your website, you should see the instruction page.
+6. Visit `localhost:3001` on your website, you should see the instruction page.
 
    If you are running on the uchicago linux machine, visit `linux.cs.uchicago.edu:3001`
 
