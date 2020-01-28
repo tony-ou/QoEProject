@@ -34,8 +34,7 @@ These are source codes for 2video experiment.
    ```shell
    npm install
    ```
-4. Put folder of test video pairs under root/videos/ . Videos should be named as "i_j.mp4" where i means i-th pair (starting from 1) and j is 0 (play on left side) or 1 (play on right side). Then set `vid_folder` in start.js 
-to video folder name.
+** 4. Put folder of test video pairs under root/videos/ . Videos should be named as "i_j.mp4" where i means i-th pair (starting from 1) and j is 0 (play on left side) or 1 (play on right side). Then set `vid_folder` in start.js to video folder name. **
 
 5. Start the server on localhost:
 
