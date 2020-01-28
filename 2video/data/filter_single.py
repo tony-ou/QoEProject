@@ -13,19 +13,12 @@ def filter_single_video(lengths, video_times, rating_times, video_order, scores)
         if (lengths[i] - 0.5> video_times[i]):
             return True
 
-    #Then check if key moment has least score 
-    #suppose key moment is video 0
-    if min(scores) > scores[0]:
-        return True
+    #Suppose left video is always better 
+    #check if user indeed rates it higher than the right 
+    for i in range(len(lengths)):
+    	if (scores[i][0] < scores[i][1]):
+    		return True
 
-    #Then check if original video (#1) has highest score 
-    if max(scores) < scores[1]:
-        return True
-    
-    #Then check if key moment is lower than orig vid
-    if scores[0] >= scores[1]:
-        return True
-    
     return False #We don't move this user to rejected folder
 
 #Parse data from user result file 
@@ -33,7 +26,12 @@ def parse_results(lines):
     video_times = list(map(int,lines[2].strip().split(','))) #read times spent on each video  
     rating_times = list(map(int,lines[3].strip().split(','))) #read times spent on each rating  
     video_order = list(map(int,lines[1].strip().split(','))) #read the video order seen by the surveyee
-    scores = list(map(int,lines[0].strip().split(','))) #read scores
+		
+		#read scores
+    temp_scores = lines[0].strip().split(',')
+    scores = []
+    for i in range(len(temp_scores)):
+    	scores.append(list(map(int,temp_scores[0].split(" "))))
 
     return video_times, rating_times, video_order, scores
 
@@ -61,7 +59,16 @@ lengths = [] #actual video lengths
 for vid in list_dir:
     if vid.endswith(".mp4"):
         full_vid_path = vid_path + "/" + vid
-        lengths.append(getLength(full_vid_path)) 
+        lengths.append([vid, getLength(full_vid_path)]) 
+
+#put the lengths into pairs
+temp_lengths = []
+
+lengths = list(sorted(lambda x: x[0], lengths))
+
+for i in range(len(lengths)//2):
+	temp_lengths.append([lengths[i*2][1],lengths[i*2+1][1]])
+lengths = temp_lengths
 
 move = False
 result_files = os.listdir(result_path)
