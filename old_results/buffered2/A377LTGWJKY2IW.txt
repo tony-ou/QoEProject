@@ -1,9 +1,0 @@
-5,4,2,2,4,1
-1,5,2,4,3,6
-23468,18572,23043,22163,15209,29653
-6839,4070,2773,2287,3302,3482
-A377LTGWJKY2IW
-Laptop
-46 - 52
-WiFi
-The amount of buffering. Some played seamlessly without any pauses. Some stopped and took awhile to start up again. 

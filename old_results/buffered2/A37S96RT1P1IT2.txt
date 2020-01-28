@@ -1,9 +1,0 @@
-4,3,1,2,3,3
-6,5,1,2,3,4
-20633,19669,19744,19830,25441,29971
-2240,2479,3634,3500,2169,6428
-A37S96RT1P1IT2
-Laptop
-32 - 38
-Cellular network
-I looked to see how many times the video froze and what was on screen and not part of the video.

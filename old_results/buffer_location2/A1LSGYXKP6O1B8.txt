@@ -1,9 +1,0 @@
-4,2,1,2,2
-1,2,5,4,3
-11954,11689,10609,10192,10933
-13727,3064,2837,3379,1987
-A1LSGYXKP6O1B8
-Desktop
-32 - 38
-WiFi
-Besides the first video they all had a stop for rebuffering and I think some were longer than others

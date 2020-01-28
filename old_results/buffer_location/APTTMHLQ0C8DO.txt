@@ -1,9 +1,0 @@
-4,4,2,2,4
-2,5,3,1,4
-19219,21031,20744,13632,17025
-2206,5113,2967,3519,5993
-APTTMHLQ0C8DO
-Desktop
-25 - 31
-WiFi
-some of them had a lag spike in the middle where the video paused for part of a second

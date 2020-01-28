@@ -1,9 +1,0 @@
-5,5,2,5,1,1
-4,1,2,6,3,5
-23141,23599,23632,18380,24598,28411
-4909,5123,4079,7813,4535,4010
-AMTTB8JUWRRM7
-Laptop
-18 - 24
-WiFi
-Some seemed to have pauses for buffering.

@@ -1,9 +1,0 @@
-5,5,1,1,1
-1,2,5,4,3
-19480,21648,18508,22788,22459
-3408,2771,1905,2302,2121
-A2JP9IKRHNLRPI
-Desktop
-18 - 24
-Cable network
-The first video did not have any lag in playback whereas the other four did. 

@@ -1,9 +1,0 @@
-3,4
-1,2
-25691,32367
-13148,5817
-A2FDEBTHDRUHRK
-Smart phone
-25 - 31
-Cellular network
-NONE

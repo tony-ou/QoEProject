@@ -1,9 +1,0 @@
-5,2,1,4,5
-5,4,2,1,3
-16577,23482,12647,13801,54017
-4822,5320,5457,9393,8871
-A8WLCSZLNZ8BL
-Laptop
-25 - 31
-Cable network
-some video streamings were pausing for a few seconds in the starting and some at the end part

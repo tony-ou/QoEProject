@@ -1,9 +1,0 @@
-3,3
-2,1
-115377,30012
-4685,9726
-A2OG8XRYJ56HS7
-Laptop
-53 - 59
-Other
-I did not notice a very significant difference. I noticed that there may have been some subtle differences in quality, but I am not very skilled at discerning such subtle differences, so I was unable to analyze those differences very specifically. -- However, I did notice a "dropout" (a temporary pause or delay) after the midpoint of playback of both videos; but the probable cause of such dropouts is that my computer is old and slow.

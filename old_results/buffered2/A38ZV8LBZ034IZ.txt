@@ -1,9 +1,0 @@
-5,2,3,2,2,1
-5,2,1,6,4,3
-21711,24462,21911,22517,60617,29223
-4883,3845,3312,5718,20859,10285
-A38ZV8LBZ034IZ
-Laptop
-53 - 59
-WiFi
-how long the video paused for while buffering.

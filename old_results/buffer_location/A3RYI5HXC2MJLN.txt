@@ -1,9 +1,0 @@
-3,4,2,2,2
-4,3,5,2,1
-23015,20440,22279,20310,20519
-3785,3023,4135,5928,2355
-A3RYI5HXC2MJLN
-Laptop
-32 - 38
-Cable network
-pauses in the video like buffering was what i saw

@@ -1,9 +1,0 @@
-4,2,2,1,1
-1,5,2,4,3
-17522,17164,18696,17597,17522
-7881,1733,1426,1883,2063
-A1F1BIPJR11LSR
-Laptop
-32 - 38
-WiFi
-Clipping in the video and lag in the sound effects.

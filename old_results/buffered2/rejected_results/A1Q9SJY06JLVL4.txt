@@ -1,9 +1,0 @@
-1,4,5,5,1,2
-3,2,6,5,4,1
-15415,5883,26142,6366,6073,6011
-6014,9641,6650,19853,6593,4890
-A1Q9SJY06JLVL4
-Desktop
-25 - 31
-Cable network
-AVI (audio video interleave) and WMV (Windows media video)

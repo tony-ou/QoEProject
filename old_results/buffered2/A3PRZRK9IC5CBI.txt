@@ -1,9 +1,0 @@
-5,5,5,5,4,2
-3,4,5,2,1,6
-17057,18224,22124,22499,24422,24871
-3479,3058,16022,3436,2494,3744
-A3PRZRK9IC5CBI
-Desktop
-39 - 45
-WiFi
-some got hung up for several seconds

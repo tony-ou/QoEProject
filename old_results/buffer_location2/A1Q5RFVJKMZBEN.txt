@@ -1,9 +1,0 @@
-3,2,2,2,1
-2,3,1,5,4
-58837,26544,16321,30224,53149
-2308,7178,3045,2430,2739
-A1Q5RFVJKMZBEN
-Desktop
-25 - 31
-Cable network
-Some just had the video studder and the audio is fine, whereas some have both the audio and video studder

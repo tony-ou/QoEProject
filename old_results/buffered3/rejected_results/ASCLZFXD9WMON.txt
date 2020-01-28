@@ -1,9 +1,0 @@
-4,4
-1,2
-8007,5519
-10588,5346
-ASCLZFXD9WMON
-Desktop
-25 - 31
-Cellular network
-no

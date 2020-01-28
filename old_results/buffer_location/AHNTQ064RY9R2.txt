@@ -1,9 +1,0 @@
-4,3,2,4,2
-4,5,3,1,2
-39028,45180,41325,47134,40067
-2901,6350,7983,12618,3044
-AHNTQ064RY9R2
-Desktop
-32 - 38
-Cellular network
-3 videos stuck at some time (seen two times each, same frame), and I think audio desync in most of them

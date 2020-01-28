@@ -1,9 +1,0 @@
-4,4,4,3,4,4
-6,2,3,5,1,4
-18571,45489,42239,20182,30806,40080
-27130,8017,16454,2596,6804,13600
-ALAEBEEHK525U
-Laptop
-32 - 38
-WiFi
-some paused a little while others did not

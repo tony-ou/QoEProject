@@ -1,9 +1,0 @@
-1,3,1,1,2,4
-6,2,5,4,3,1
-20159,20245,20759,21593,21348,26202
-4043,2154,3828,1866,1774,5267
-A2PMT4061B1NDP
-Desktop
-25 - 31
-Cable network
-the sound kept getting more and more off, as well as a few stuttery moments.

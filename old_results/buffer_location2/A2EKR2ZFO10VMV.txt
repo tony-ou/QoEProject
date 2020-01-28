@@ -1,9 +1,0 @@
-4,2,2,2,2
-4,2,1,5,3
-18616,12610,10656,11039,9994
-1772,1952,3048,7684,2763
-A2EKR2ZFO10VMV
-Desktop
-25 - 31
-WiFi
-The lengths of time it paused for loading were different lengths.

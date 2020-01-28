@@ -1,9 +1,0 @@
-5,4,4,2,3,1
-1,2,3,5,4,6
-21577,22239,23322,19710,25559,25374
-5872,4424,5708,2654,5268,4692
-A1S1O9ZCONEGE3
-Desktop
-18 - 24
-WiFi
-Every next video theirs a buffer on the video as I keep going until the sixth video it becomes more noticeable.
