@@ -67,8 +67,8 @@ var post_next = async (ctx, next) => {
     var rGrade = ctx.request.body.rSentiment;
     user.lResult.push(lGrade);
     user.rResult.push(rGrade);
-   	console.log(ctx.request.body.lClicktime)
-   	console.log(ctx.request.body.rClicktime)
+   	console.log(ctx.request.body.lClicktime);
+   	console.log(ctx.request.body.rClicktime);
 
     var end = new Date().getTime();
     var exe_time = end - user.start;
