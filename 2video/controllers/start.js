@@ -64,10 +64,12 @@ var post_start = async (ctx, next) => {
 var post_next = async (ctx, next) => {
     var user = ctx.state.user;
     var lGrade = ctx.request.body.lSentiment;
-    var rGrade = ctx.request.body.rSentiment
+    var rGrade = ctx.request.body.rSentiment;
     user.lResult.push(lGrade);
     user.rResult.push(rGrade);
-    
+   	console.log(ctx.request.body.lClicktime);
+   	console.log(ctx.request.body.rClicktime);
+
     var end = new Date().getTime();
     var exe_time = end - user.start;
     user.video_time[user.count-1] += exe_time;
