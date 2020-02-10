@@ -25,9 +25,11 @@
 <head>    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
    <link rel="stylesheet" href="/static/css/bootstrap2.min.css">
-       <script src="/static/js/bootstrap.js"></script>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+       <script src="/static/js/bootstrap.js"></script>
+    
     <title>{{ title }}</title>
 </head>
 
@@ -103,6 +105,13 @@ $("#Sentiments").submit( function(eventObj) {
   return true;
 });
 
+$("#l_video").addEventListener("play", function(eventObj) {
+    console.log(l_clicktime);  
+});
+
+$("#r_video").addEventListener("play", function(eventObj) {
+    console.log("1222");  
+});
 
 </script>
 
