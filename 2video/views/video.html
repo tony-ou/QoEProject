@@ -95,7 +95,8 @@
 
 <script>
 $("#Sentiments").submit( function(eventObj) {
-  $(this).append('<input name="clicktime" value="10" />');
+  $(this).append('<input name="lClicktime" value="${l_clicktime}" />');
+  $(this).append('<input name="rCicktime" value="${l_clicktime}" />');
   return true;
 });
 </script>
