@@ -100,8 +100,8 @@ var l_clicktime = -1;
 var r_clicktime = -1;
 
 $("#Sentiments").submit( function(eventObj) {
-  $(this).append('<input name="lClicktime" value="${l_clicktime}" />');
-  $(this).append('<input name="rCicktime" value="${r_clicktime}" />');
+  $(this).append(template('<input name="lClicktime" value="'+ l_clicktime + '" />');
+  $(this).append('<input name="rClicktime" value="'+ r_clicktime + '" />');
   return true;
 });
 
