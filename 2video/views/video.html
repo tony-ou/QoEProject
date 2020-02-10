@@ -96,8 +96,8 @@
 </body>
 
 <script>
-let l_clicktime = -1;
-let r_clicktime = -1;
+var l_clicktime = -1;
+var r_clicktime = -1;
 
 $("#Sentiments").submit( function(eventObj) {
   $(this).append('<input name="lClicktime" value="${l_clicktime}" />');
@@ -110,7 +110,7 @@ $("#l_video").on("play", function() {
 });
 
 $("#r_video").on("play", function() {
-    console.log("1222");  
+    console.log("1222\n");  
 });
 
 </script>
