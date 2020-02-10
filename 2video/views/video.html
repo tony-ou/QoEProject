@@ -106,11 +106,17 @@ $("#Sentiments").submit( function(eventObj) {
 });
 
 $("#l_video").on("play", function() {
-    console.log(l_clicktime);  
+    if (l_clicktime === -1)
+    {
+        l_clicktime = new Date().getTime();  
+    }
 });
 
 $("#r_video").on("play", function() {
-    console.log("1222\n");  
+    if (r_clicktime === -1)
+    {
+        r_clicktime = new Date().getTime();  
+    }
 });
 
 </script>
