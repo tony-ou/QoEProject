@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col" >
                      <div class="dash-video-player">
-                        <video preload="none" controls="" src={{l_video_src}}></video>
+                        <video id="l_video" preload="none" controls="" src={{l_video_src}} onclick="this.play();"></video>
                     
                         <div  style="text-align:center">
                             <div class="btn-group-vertical" data-toggle="buttons" id="Inputs">
@@ -64,7 +64,7 @@
 
                 <div class="col" >
                     <div class="dash-video-player">
-                        <video preload="none" controls="" src={{r_video_src}}></video>
+                        <video id="r_video" preload="none" controls="" src={{r_video_src}} onclick="this.play();"></video>
                    
                         <div  style="text-align:center">
                             <div class="btn-group-vertical" data-toggle="buttons" id="Inputs">
@@ -94,11 +94,23 @@
 </body>
 
 <script>
+let l_clicktime = -1;
+let r_clicktime = -1;
+
 $("#Sentiments").submit( function(eventObj) {
   $(this).append('<input name="lClicktime" value="${l_clicktime}" />');
-  $(this).append('<input name="rCicktime" value="${l_clicktime}" />');
+  $(this).append('<input name="rCicktime" value="${r_clicktime}" />');
   return true;
 });
+
+$("#l_video").addEventListener("play", function(eventObj) {
+    console.log(l_clicktime);  
+});
+
+$("#r_video").addEventListener("play", function(eventObj) {
+    console.log("1222");  
+});
+
 </script>
 
 </html>
