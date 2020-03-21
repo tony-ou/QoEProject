@@ -2,9 +2,9 @@
 var getOder = require('../models/random');
 var fs = require('fs');
 
-const vid_folder = "buffer_location3";
-var vid_path = "../videos/" + vid_folder;
-var video_url = "https://github.com/tony-ou/QoEProject/raw/master/videos/" + vid_folder + "/";
+const vid_folder = "original_videos_Sports_720P_Sports_720P-07d0_1_150k_180";
+var vid_path = "./videos/" + vid_folder;
+var video_url = "https://github.com/tony-ou/QoEProject/raw/master/1video/videos/" + vid_folder + "/";
 
 var num_vids;
 
@@ -18,7 +18,8 @@ var post_start = async (ctx, next) => {
     var device = ctx.request.body.device;
     var age = ctx.request.body.age;
     var network = ctx.request.body.network;
-    var video_order = getOder(1,num_vids);
+    var video_order = [1, ...getOder(2,num_vids)];
+   
     console.log(mturkID, device, age);
     var start = new Date().getTime();
 
